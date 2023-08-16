@@ -1,5 +1,5 @@
 {
-    "name": "daandesmedt/phpwktadapter",
+    "name": "prezent/phpwktadapter",
     "description": "Read and parse 2D, 3D and 4D WKT (Well Known Text) / EWKT (Extended Well-Known Text) object strings into geometry objects with this simple WKT PHP adapter library.",
     "keywords": ["php", "string", "text", "geometry", "geography", "spatial", "wkt", "ewkt"],
     "type": "library",
@@ -8,16 +8,20 @@
         {
             "name": "Daan De Smedt",
             "email": "daan.de.smedt@hotmail.com"
+        },
+        {
+            "name": "Robert-Jan Bijl",
+            "email": "robert-jan@prezent.nl"
         }
     ],
     "autoload": {
         "psr-4": {
-            "daandesmedt\\PHPWKTAdapter\\": "src/PHPWKTAdapter"
+            "Prezent\\PHPWKTAdapter\\": "src/PHPWKTAdapter"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "daandesmedt\\Tests\\PHPWKTAdapter\\": "tests/PHPWKTAdapter"
+            "Prezent\\Tests\\PHPWKTAdapter\\": "tests/PHPWKTAdapter"
         }
     },
     "minimum-stability": "stable",
